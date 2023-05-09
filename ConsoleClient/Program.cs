@@ -11,6 +11,7 @@ namespace MyMessanger
             Console.WriteLine(output);
             Message deserializedMsg = JsonConvert.DeserializeObject<Message>(output);
             Console.WriteLine(deserializedMsg);
+            //{ "UserName":"Iambakhh","MessageText":"Privet","TimeStamp":"2023-05-09T07:26:26.0282108Z"}
             //Console.WriteLine(msg.ToString());
             //Console.WriteLine("Hello, World!");
         }
